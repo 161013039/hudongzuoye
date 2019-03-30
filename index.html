@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="iceStone <ice@wedn.net>">
+  <title>动漫专场</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/helang.css">
+  <link rel="stylesheet" type="text/css" href="css/search-form.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/index1.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+  <script src="js/script.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<!--[if IE]>
+		<script src="http://www.jq22.com/jquery/html5.min.js"></script>
+	<![endif]-->
+
+<!--[if IE 6]>
+<script type="text/javascript" language="javascript" src="js/png.js"></script>
+<![endif]-->
+
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/web.js"></script>
+  <style type="text/css">
+ 
+        .info_box{
+            margin: 100px auto 0 auto;
+            width: 400px;
+            background-color: #ffffff;
+            color: #333333;
+            padding:0 0 0 30px;
+        }
+        .info_box>li{
+            padding: 15px 0;
+            font-size: 14px;
+            border-top: #e5e5e5 dashed 1px;
+        }
+        .info_box>li:first-child{
+            list-style: none;
+            font-size: 16px;
+            color: #FD463E;
+            border-top: none;
+            font-weight: bold;
+        }
+        .info_box>li:last-child{
+            list-style: none;
+            font-size: 12px;
+            color: #999999;
+        }
+    </style>
+
+</head>
+
+<body>
+  <!-- 顶部区域 -->
+  <header>
+    <!-- 通栏菜单 -->
+    <div class="topbar hidden-sm hidden-xs">
+      <div class="container">
+        <div class="row">
+          <div class="tb-1 col-md-2">
+            <a href="#" class="text-muted">
+              <i class="icon-mobilephone"></i>
+              <span>手机微漫城</span>
+              <i class="glyphicon glyphicon-chevron-down"></i>
+              <img src="img/c_06.jpg" alt="扫一扫">
+            </a>
+          </div>
+          <div class="tb-3 col-md-2 text-center text-muted">
+            <a href="#" class="text-muted">常见问题</a>
+            <a href="#" class="text-muted">财富登录</a>
+          </div>
+          <div class="tb-2 col-md-5 text-center">
+          <a href="#" class="btn btn-register btn-sm">免费注册</a>
+          <a href="#" class="text-muted" data-toggle="modal" data-target=".modal">登录</a>
+          </div>
+          <div class="tb-4 col-md-3 text-center">
+		  <a><input type="text" id="search" name="search" placeholder="搜索" /><button type="submit" class="text-right">搜索<title="Search" /></button></a>      			
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /通栏菜单 -->
+    <!-- 导航菜单 -->
+	    <nav class="hl_nav">
+    <ul class="nav_list">
+        <li class="active">
+            <a class="nav_head" href="#">网站首页</a>       
+        </li>
+        <li>
+            <a class="nav_head" href="#">在线下载</a>
+            <a class="nav_body" href="#">动漫下载</a>
+            <a class="nav_body" href="#">漫画下载</a>
+            <a class="nav_body" href="#">小说下载</a>
+        </li>
+        <li>
+            <a class="nav_head" href="#">精彩视频</a>
+            <a class="nav_body" href="#">火影忍者</a>
+            <a class="nav_body" href="#">海贼王</a>
+            <a class="nav_body" href="#">其他</a>       			
+        </li>
+        <li>
+            <a class="nav_head" href="#">新闻动态</a>
+            <a class="nav_body" href="#">事实新闻</a>
+            <a class="nav_body" href="#">海外新闻</a>
+        </li>
+        <li>
+            <a class="nav_head" href="#">我们的团队</a>
+            <a class="nav_body" href="#">专业团队</a>
+        </li>     
+        <li>
+            <a class="nav_head" href="#">关于我们</a>
+        </li>
+    </ul>
+</nav>
+
+    <!-- /导航菜单 -->
+  </header>
+  <!-- /顶部区域 -->
+  <!-- 通栏轮播 -->
+  <section id="home_slide" class="carousel slide" data-ride="carousel">
+    <!-- 指示器 -->
+    <ol class="carousel-indicators">
+      <li data-target="#home_slide" data-slide-to="0" class="active"></li>
+      <li data-target="#home_slide" data-slide-to="1"></li>
+      <li data-target="#home_slide" data-slide-to="2"></li>
+      <li data-target="#home_slide" data-slide-to="3"></li>
+    </ol>
+    <!-- 轮播页 -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="item-image" data-image-large="img/1.jpg" data-image-small="img/1.jpg" data-image-alt="哈哈"></div>
+      </div>
+      <div class="item">
+        <div class="item-image" data-image-large="img/2.jpg" data-image-small="img/2.jpg" data-image-alt="哈哈"></div>
+      </div>
+      <div class="item">
+        <div class="item-image" data-image-large="img/3.jpg" data-image-small="img/3.jpg" data-image-alt="哈哈"></div>
+      </div>
+      <div class="item">
+        <div class="item-image" data-image-large="img/4.jpg" data-image-small="img/4.jpg" data-image-alt="哈哈"></div>
+      </div>
+	  <div class="item">
+        <div class="item-image" data-image-large="img/5.jpg" data-image-small="img/5.jpg" data-image-alt="哈哈"></div>
+      </div>
+    </div>
+    <!-- 控制按钮 -->
+    <a class="left carousel-control" href="#home_slide" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">上一张</span>
+    </a>
+    <a class="right carousel-control" href="#home_slide" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">下一张</span>
+    </a>
+  </section>
+  <ul class="drawer">
+	  <li>
+	    <a href="#">
+	      <i class="fa fa-info-circle"></i>
+	      <span>火影专场</span>
+	    </a>
+	    <ul>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-folder-open"></i>
+	          <span>鸣人大战佩恩</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-question-circle"></i>
+	          <span>佐助</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="http://www.jq22.com/" target="_blank">
+	          <i class="fa fa-phone-square"></i>
+	          <span>卡卡西</span>
+	        </a>
+	      </li>
+	    </ul>
+	  </li>
+	  <li>
+	    <a href="#">
+	      <i class="fa fa-folder"></i>
+	      <span>海贼王专场</span>
+	    </a>
+	    <ul>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-flash"></i>
+	          <span>路飞大战基德</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-ellipsis-h"></i>
+	          <span>索隆</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-dot-circle-o"></i>
+	          <span>娜美</span>
+	        </a>
+	      </li>
+	    </ul>
+	  </li>
+	  <li>
+	    <a href="#">
+	      <i class="fa fa-share-alt"></i>
+	      <span>名侦探柯南专场</span>
+	    </a>
+	    <ul>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-codepen"></i>
+	          <span>柯南-道尔</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-twitter"></i>
+	          <span>工藤新一</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-github"></i>
+	          <span>服部半藏</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-globe"></i>
+	          <span>小樱</span>
+	        </a>
+	      </li>
+	    </ul>
+	  </li>
+	  	  <li>
+	    <a href="#">
+	      <i class="fa fa-info-circle"></i>
+	      <span>七龙珠专场</span>
+	    </a>
+	    <ul>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-folder-open"></i>
+	          <span>悟空<span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-question-circle"></i>
+	          <span>比克大魔王</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="http://www.jq22.com/" target="_blank">
+	          <i class="fa fa-phone-square"></i>
+	          <span>龟仙人</span>
+	        </a>
+	      </li>
+	    </ul>
+	  </li>
+	  <li>
+	  	  <li>
+	    <a href="#">
+	      <i class="fa fa-info-circle"></i>
+	      <span>妖精的尾巴专场</span>
+	    </a>
+	    <ul>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-folder-open"></i>
+	          <span>Portfolio</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-question-circle"></i>
+	          <span>About</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="http://www.jq22.com/" target="_blank">
+	          <i class="fa fa-phone-square"></i>
+	          <span>Contact</span>
+	        </a>
+	      </li>
+	    </ul>
+	  </li>
+	  <li>
+	  	  <li>
+	    <a href="#">
+	      <i class="fa fa-info-circle"></i>
+	      <span>一拳超人专场</span>
+	    </a>
+	    <ul>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-folder-open"></i>
+	          <span>Portfolio</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-question-circle"></i>
+	          <span>About</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="http://www.jq22.com/" target="_blank">
+	          <i class="fa fa-phone-square"></i>
+	          <span>Contact</span>
+	        </a>
+	      </li>
+	    </ul>
+	  </li>
+	  <li>
+	  	  <li>
+	    <a href="#">
+	      <i class="fa fa-info-circle"></i>
+	      <span>哆啦A梦专场</span>
+	    </a>
+	    <ul>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-folder-open"></i>
+	          <span>哆啦A梦</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-question-circle"></i>
+	          <span>大雄</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="http://www.jq22.com/" target="_blank">
+	          <i class="fa fa-phone-square"></i>
+	          <span>胖虎</span>
+	        </a>
+	      </li>
+	    </ul>
+	  </li>
+	  <li>
+	  	  <li>
+	    <a href="#">
+	      <i class="fa fa-info-circle"></i>
+	      <span>樱桃小丸子专场</span>
+	    </a>
+	    <ul>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-folder-open"></i>
+	          <span>小丸子</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-question-circle"></i>
+	          <span>爷爷</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="http://www.jq22.com/" target="_blank">
+	          <i class="fa fa-phone-square"></i>
+	          <span>奶奶</span>
+	        </a>
+	      </li>
+	    </ul>
+	  </li>
+	  <li>
+	  <li>	  
+	    <a href="#">
+	      <i class="fa fa-info-circle"></i>
+	      <span>更多</span>
+	    </a>
+	    <ul>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-folder-open"></i>
+	          <span>服装</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="#" target="_blank">
+	          <i class="fa fa-question-circle"></i>
+	          <span>道具</span>
+	        </a>
+	      </li>
+	      <li>
+	        <a href="http://www.jq22.com/" target="_blank">
+	          <i class="fa fa-phone-square"></i>
+	          <span>手办</span>
+	        </a>
+	      </li>
+	    </ul>
+	  </li>
+	</ul>
+ 
+  <!-- /通栏轮播 -->
+  <!-- 网站特色 -->
+  <section id="features" class="hidden-xs">
+<div class="container">
+      <div class="row">
+	   <div class="media">
+              <div class="media-left"></div>
+              <div class="media-body">
+                <h4 class="text-center">新闻中心</h4>
+              </div>
+            </div>
+        <div class="col-sm-6 col-md-4">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-uniE907"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">海贼王专场</h4>
+                <p>路飞大战基德</p >
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-uniE907"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">火影忍者专场</h4>
+                <p>鸣人大战佩恩</p >
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-uniE907"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">名侦探柯南专场</h4>
+                <p>最后的boss</p >
+              </div>
+            </div>
+          <a>
+        </div>
+		 <div class="col-sm-6 col-md-4">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-uniE907"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">七龙珠</h4>
+                <p>孙悟空大战弗利沙</p >
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-uniE907"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">妖精的尾巴</h4>
+                <p>纳兹和露西</p >
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+           <a href="#">
+            <div class="media">
+              <div class="media-left">
+                <i class="icon-uniE907"></i>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">一拳超人</h4>
+                <p>琦玉大战地底人</p >
+              </div>
+			  </a>
+            </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <div class="warrper">
+	 <div class="content">
+           <!--企业动态-->
+           <div class="index-new w1200 mt30">
+               <div class="indexadd mt50 mb60">
+                   <div id="banners" class="ui-banner">
+                       <ul class="ui-banner-slides">
+                           <li><a href=""><img src="img/11.jpg" alt="NEW! Get Heart Smart With Essential Omega III" title="NEW! Get Heart Smart With Essential Omega III"/></a></li>
+                           <li><a href=""><img src="img/12.jpg" alt="NEW! Support Your Skin on a Cellular Level" title="NEW! Support Your Skin on a Cellular Level"/></a></li>
+                           <li><a href=""><img src="img/13.jpg" alt="NEW! Indulge in Luxury With Royal Spa" title="NEW! Indulge in Luxury With Royal Spa"/></a></li>
+                           <li><a href=""><img src="img/14.jpg" alt="NEW! Get paid to shop with Cashback" title="NEW! Get paid to shop with Cashback"/></a></li>
+                           <li><a href=""><img src="img/16.jpg" alt="NEW! Radiation Protection at its Best" title="NEW! Radiation Protection at its Best"/></a></li>
+                           <li><a href=""><img src="img/11.jpg" alt="Unleash the Power of Isotonix Today" title="Unleash the Power of Isotonix Today"/></a></li>
+                           <li><a href=""><img src="img/12.jpg" alt="Motives is Changing the Face of UK Beauty" title="Motives is Changing the Face of UK Beauty"/></a></li>
+                           <li><a href=""><img src="img/13.jpg" alt="Get a Taste of Spring" title="Get a Taste of Spring"/></a></li>
+                           <li><a href=""><img src="img/14.jpg" alt="Try Isotonix OPC-3 Today for Better Health" title="Try Isotonix OPC-3 Today for Better Health"/></a></li>
+                           <li><a href=""><img src="img/16.jpg" alt="Feel like a princess with Royal Spa" title="Feel like a princess with Royal Spa"/></a></li>
+                           <li><a href=""><img src="img/10.jpg" alt="Stay energised with Isotonix for the Queen's Jubilee" title="Stay energised with Isotonix for the Queen's Jubilee"/></a></li>
+                          
+                       </ul><!--ui-banner-slides end-->
+                       <ul class="ui-banner-slogans">
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/11.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">草帽路飞海贼团</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/12.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/13.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/14.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/16.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/11.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/12.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/13.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/14.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/16.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="ui-line">
+                               <div class="ullinehover">
+                                   <div class="ui-bnnerimg floatLeft">
+                                       <img src="img/11.jpg" alt="" width="103"/>
+                                   </div>
+                                   <div class="ui-bnnerp floatRight">
+                                       <h3 style="margin-top: 8px;">设计院开展扶贫济困募捐活动</h3>
+                                       <p>根据总局文明委《关于开展扶贫济困募捐活动的通知》精神，在总局机关和直属单位
+                                           开展扶贫济困募捐活动。
+                                       </p>
+                                   </div>
+                               </div>
+                           </li>
+                          
+                       </ul><!--ui-banner-slogans end-->
+                   </div>
+               </div>
+           </div>
+           <!--企业动态 end-->
+       </div>
+       <!--content end-->
+
+
+   </div>
+   <div style="margin-top: 100px">
+		</div>
+		<!-- footer -->
+		<div class="wave-box">
+			<div class="marquee-box marquee-up" id="marquee-box">
+				<div class="marquee">
+					<div class="wave-list-box" id="wave-list-box1">
+						<ul>
+							<li>
+								<img height="60" alt="波浪" src="img/wave_02.png">
+							</li>
+						</ul>
+					</div>
+					<div class="wave-list-box" id="wave-list-box2">
+						<ul>
+							<li>
+								<img height="60" alt="波浪" src="img/wave_02.png">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="marquee-box" id="marquee-box3">
+				<div class="marquee">
+					<div class="wave-list-box" id="wave-list-box4">
+						<ul>
+							<li>
+								<img height="60" alt="波浪" src="img/wave_01.png">
+							</li>
+						</ul>
+					</div>
+					<div class="wave-list-box" id="wave-list-box5">
+						<ul>
+							<li>
+								<img height="60" alt="波浪" src="img/wave_01.png">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="auto clearfix">
+				<!-- footer主要-->
+				<div class="five-superiority">
+					<ul class="five-superiority-list clearfix">
+						<li class="compensate_ico">
+							<a href="#compensate">
+								<span class="superiority-icon">
+								</span>
+								<span>
+									周边商城
+								</span>
+							</a>
+						</li>
+						<li class="retreat_ico">
+							<a href="#refund">
+								<span class="superiority-icon">
+								</span>
+								<span>
+									动漫手办
+								</span>
+							</a>
+						</li>
+						<li class="technology_ico">
+							<a class="superiority-text" href="#afterService">
+								<span class="superiority-icon">
+								</span>
+								<span>
+									视频观看
+								</span>
+							</a>
+						</li>
+						<li class="prepare_ico">
+							<a href="#ico">
+								<span class="superiority-icon">
+								</span>
+								<span>
+									快速通道
+								</span>
+							</a>
+						</li>
+						<li class="service_ico">
+							<a href="#secret">
+								<span class="superiority-icon">
+								</span>
+								<span>
+									服装道具
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-floor1">
+					<div class="footer-list">
+						<ul>
+							<li class="flist-title">
+								产品与服务
+							</li>
+							<li>
+								<a href="#">
+									<strong>
+										弹性云服务器
+									</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong>
+										服务器托管
+									</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong>
+										云虚拟主机
+									</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong>
+										某公司管家
+									</strong>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<strong>
+										某公司监控
+									</strong>
+								</a>
+							</li>
+						</ul>
+						<ul>
+							<li class="flist-title">
+								云解决方案
+							</li>
+							<li>
+								<a href="#">
+									金融解决方案
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									电商解决方案
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									移动解决方案
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									游戏解决方案
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									网站解决方案
+								</a>
+							</li>
+						</ul>
+						<ul>
+							<li class="flist-title">
+								技术与支持
+							</li>
+							<li>
+								<a href="#" target="user/">
+									工单系统
+								</a>
+							</li>
+							<!--<li><a href="http://icp.niaoyun.com/">备案中心</a></li>-->
+							<li>
+								<a href="#">
+									意见反馈
+								</a>
+							</li>
+							<li>
+								<a href="">
+									会员服务
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									IDC公司
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									帮助中心
+								</a>
+							</li>
+						</ul>
+						<ul class="flist-4">
+							<li class="flist-title">
+								关于公司
+							</li>
+							<li>
+								<a href="#">
+									公司简介
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									新闻动态
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									加入我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									服务协议
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									友情链接
+								</a>
+							</li>
+						</ul>
+						<div class="clear-float">
+						</div>
+					</div>
+					<div class="footer-right">
+						<div class="telephone" title="服务热线">
+							<span>
+							</span>
+							<div class="tel-number">
+								400-400-3056
+							</div>
+						</div>
+						<div class="official-plat">
+							<p class="weixin" style="background-image: ">
+								<span id="wx-corner">
+								</span>
+							</p>
+							<p class="weibo" style="background-image: ">
+								<span id="wb-corner">
+								</span>
+							</p>
+							<ul>
+								<li>
+									<a href="#a_null">
+										<span class="weixin-logo">
+										</span>
+										公司官方微信
+									</a>
+								</li>
+								<li title="点击打开官方微博">
+									<a href="#" target="_blank">
+										<span class="weibo-logo">
+										</span>
+										公司官方微博
+									</a>
+								</li>
+								<li title="点击打开官方客服">
+									<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=XXXXXXXX&amp;aty=0&amp;a=0&amp;curl=&amp;ty=1">
+										<span class="qq-logo">
+										</span>
+										公司官方客服
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="clear-float">
+					</div>
+				</div>
+			</div>
+			<div class="footer-floor2">
+				<p>
+					网站信息·1997-2018 版权所有
+				</p>
+				<p>
+					 Copyright(C)web.com, All Rights Reserved.
+				</p>
+			</div>
+		</div>
+		<!-- footer end -->
+		<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+			<p>
+			</p>
+			<p>
+			</p>
+		</div>
+  
+
+  <!-- /登录对话框 -->
+  <script src="lib/jquery/jquery.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+//首页旅游产品分类
+$(".product_sort .bd .item").hover(function(){
+	$(this).addClass("layer");
+},function(){
+	$(this).removeClass("layer");
+});
+</script>
+ <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--企业动态-->
+    <script src="js/jquery-ui-1.8.6.core.widget.js"></script>
+    <script src="js/jqueryui.bannerize.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#banners').bannerize({
+                shuffle: 1,
+                interval: "5"
+            });
+            $(".ui-line").hover(function(){
+                $(this).addClass("ui-line-hover");
+                $(this).find(".ui-bnnerp").addClass("ui-bnnerp-hover");
+            },function(){
+                $(this).removeClass("ui-line-hover");
+                $(this).find(".ui-bnnerp").removeClass("ui-bnnerp-hover");
+            });
+        });
+    </script>
+	
+   
+</body>
+
+</html>
